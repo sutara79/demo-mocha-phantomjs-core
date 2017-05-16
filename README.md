@@ -1,5 +1,7 @@
 # demo-gulp-mocha-phantomjs
 
+[![Build Status](https://travis-ci.org/sutara79/demo-mocha-phantomjs-core.svg?branch=master)](https://travis-ci.org/sutara79/demo-mocha-phantomjs-core)
+
 Unit testing for client side JavaScript with DOM.
 
 ## Demo for the testing target
