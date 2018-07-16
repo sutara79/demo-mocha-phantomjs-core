@@ -24,3 +24,9 @@ $ npm test
 
   2 passing (9ms)
 ```
+
+## Dependencies
+- [phantomjs-prebuilt](https://github.com/Medium/phantomjs)
+- [mocha-phantomjs-core](https://github.com/nathanboktae/mocha-phantomjs-core)
+- [mocha](https://github.com/mochajs/mocha)
+- [power-assert](https://github.com/power-assert-js/power-assert)

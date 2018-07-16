@@ -1,6 +1,6 @@
 {
   "name": "demo-mocha-phantomjs-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/sutara79/demo-mocha-phantomjs-core",
   "license": "MIT",
   "repository": {
@@ -8,18 +8,13 @@
     "url": "git@github.com:sutara79/demo-mocha-phantomjs-core.git"
   },
   "devDependencies": {
-    "mocha": "^3.4.1",
-    "mocha-phantomjs-core": "^2.1.1",
-    "phantomjs-prebuilt": "^2.1.14",
-    "power-assert": "^1.4.2"
+    "mocha": "^5.2.0",
+    "mocha-phantomjs-core": "^2.1.2",
+    "phantomjs-prebuilt": "^2.1.16",
+    "power-assert": "^1.6.0"
   },
   "dependencies": {
-    "jquery": "^3.2.1"
-  },
-  "nyc": {
-    "include": [
-      "./dist/*.js"
-    ]
+    "jquery": "^3.3.1"
   },
   "scripts": {
     "test": "phantomjs ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/index.html"
