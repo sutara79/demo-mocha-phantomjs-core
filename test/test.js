@@ -1,6 +1,7 @@
-mocha.setup('bdd');
-mocha.reporter('html');
-
+/**
+ *  @file Unit testing
+ *  Do not use ES6 or later.
+ */
 describe('jquery.set-year.js', function() {
   var int_year;
   beforeEach(function() {

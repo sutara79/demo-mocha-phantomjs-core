@@ -8,9 +8,10 @@
 <body>
 <div id="mocha"></div>
 
-<!-- Mocha, power-assert -->
+<!-- Mocha, power-assert, jQuery -->
 <script src="../node_modules/mocha/mocha.js"></script>
 <script src="../node_modules/power-assert/build/power-assert.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 
 <script>
 // You may need to call initMochaPhantomJS before calling any mocha setup functions like setup(), ui(), etc. 
@@ -18,10 +19,11 @@
 if (typeof initMochaPhantomJS === 'function') {
   initMochaPhantomJS();
 }
+mocha.setup('bdd');
+mocha.reporter('html');
 </script>
 
 <!-- Target for testing -->
-<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script src="../dist/jquery.set-year.js"></script>
 
 <!-- Testing code -->

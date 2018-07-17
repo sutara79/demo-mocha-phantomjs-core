@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/sutara79/demo-mocha-phantomjs-core.svg?branch=master)](https://travis-ci.org/sutara79/demo-mocha-phantomjs-core)
 
-Unit testing for client side JavaScript with DOM.
+Unit testing for client side JavaScript with DOM.  
+**Do not use ES6(ES2015) or later.**  
+Otherwise testing on CLI will fail.
 
 ## Demo for the testing target
 https://sutara79.github.io/demo-mocha-phantomjs-core/
